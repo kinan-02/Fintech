@@ -17,5 +17,5 @@ This study explores the application of advanced Deep Learning models, specifical
    Clone this repository to your local machine using:
 
    ```sh
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/kinan-02/Fintech.git
+   cd Fintech

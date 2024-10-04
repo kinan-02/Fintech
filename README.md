@@ -53,3 +53,22 @@ Notes :
 - you should download the data you already got (to use it after that again).
 - 
 ## How-to-Deal-With-The-Missing-Data
+To handle missing data in the dataset, follow these steps:
+
+1. **Install the Pandas Library**:
+
+   You will need `pandas` to manage and process the data. Install it using:
+
+   ```sh
+   pip install pandas
+   ```
+
+2. **Upload the Downloaded Data**:
+
+   Load the data that you have already downloaded using Pandas. You can do this in your script or Jupyter Notebook:
+
+
+3. **Run the Missing Data Script**:
+
+   Open and run the Jupyter Notebook `filling_missing_values.ipynb` to handle the missing values:
+

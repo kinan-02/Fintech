@@ -52,7 +52,7 @@ Notes :
 - all of the mentioned above (code) and also the data itself , is in the data folder
 - you should download the data you already got (to use it after that again).
   
-## How-to-Deal-With-The-Missing-Data
+## How to Deal With The Missing Data
 To handle missing data in the dataset, follow these steps:
 
 1. **Install the Pandas Library**:

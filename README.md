@@ -17,3 +17,6 @@ This study explores the application of advanced Deep Learning models, specifical
    ```sh
    git clone https://github.com/kinan-02/Fintech.git
    cd Fintech
+   
+## Prerequisites
+make sure that you have jupyter or google colab (prefered google colab) 

@@ -6,7 +6,7 @@ This study explores the application of advanced Deep Learning models, specifical
 
 - [Installation](#installation)
 - [Prerequisites](#Prerequisites)
-- [How to Get The Data](#How to Get The Data)
+- [How to Get The Data](#How-to-Get-The-Data)
 - [How to Run](#how-to-run)
 
 ## Installation

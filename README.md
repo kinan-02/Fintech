@@ -105,38 +105,9 @@ Note : if you want to run the code in google colab platform you should upload th
 
 ### Option 2: Evaluate Using a Pre-Trained Model
 
-If you do not want to train the model and prefer to use the pre-trained model for evaluation, use the following command:
+If you do not want to train the model and prefer to use the pre-trained models for evaluation upload all the files from `Trained_Models/` and run `eval_models.ipynb` file.
 
-```sh
-python main.py --eval --pretrained_model_path path/to/pretrained_model.pth --config config/eval_config.json
-```
-
-- `--eval`: This flag indicates that you want to evaluate the model.
-- `--pretrained_model_path path/to/pretrained_model.pth`: Provide the path to the pre-trained model file (e.g., `transformer_model.pth`).
-- `--config config/eval_config.json`: This specifies the configuration for evaluation.
-
-### Example Commands
-
-1. **Training from Scratch**:
-
-   ```sh
-   python main.py --train --config config/train_config.json
-   ```
-
-2. **Evaluating the Trained Model**:
-
-   ```sh
-   python main.py --eval --config config/eval_config.json
-   ```
-
-3. **Evaluating Using a Pre-Trained Model**:
-
-   ```sh
-   python main.py --eval --pretrained_model_path pretrained_models/transformer_model.pth --config config/eval_config.json
-   ```
-
+ 
 ---
-
-This "How to Run" section provides users with clear instructions for both training and evaluating the model, as well as the option to only evaluate a pre-trained model. Replace paths like `path/to/pretrained_model.pth` and `config/train_config.json` with the appropriate file paths in your project.
-   
-
+**This completes the instructions for running the notebooks and processing the data for our project. We encourage you to explore the final results, consider potential improvements, and possibly extend the project with your ideas.
+Thank you for following through with our project workflow!**

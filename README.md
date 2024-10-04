@@ -5,10 +5,8 @@ This study explores the application of advanced Deep Learning models, specifical
 ## Table of Contents
 
 - [Installation](#installation)
+- [Prerequisites](#Prerequisites)
 - [How to Run](#how-to-run)
-- [Usage](#usage)
-- [Examples](#examples)
-- [License](#license)
 
 ## Installation
 

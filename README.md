@@ -41,46 +41,9 @@ To get the required data for this project, follow the steps below:
 
 3. **Get Cryptocurrency Data**:
 
-   Use the `CryptoBarsRequest` class (provided by the Alpaca library) to retrieve cryptocurrency data. Make sure to use the relevant symbols. Here is an example:
-
-   ```python
-   from alpaca.data.requests import CryptoBarsRequest
-   from alpaca.data.historical import CryptoHistoricalDataClient
-
-   api_key = "YOUR_API_KEY"
-   secret_key = "YOUR_SECRET_KEY"
-   client = CryptoHistoricalDataClient(api_key, secret_key)
-
-   crypto_request_params = CryptoBarsRequest(
-       symbol_or_symbols=["BTC/USD", "ETH/USD"],  # Replace with the relevant symbols
-       timeframe="1D"  # Daily data
-   )
-
-   crypto_data = client.get_crypto_bars(crypto_request_params)
-   ```
+   Use the `CryptoBarsRequest` class (provided by the Alpaca library) to retrieve cryptocurrency data. Make sure to use the relevant symbols. 
 
 4. **Get Stock and Natural Resources Data**:
 
-   Use the `StockBarsRequest` class to retrieve stock and natural resources data. Again, specify the relevant symbols:
+   Use the `StockBarsRequest` class to retrieve stock and natural resources data.
 
-   ```python
-   from alpaca.data.requests import StockBarsRequest
-   from alpaca.data.historical import StockHistoricalDataClient
-
-   client = StockHistoricalDataClient(api_key, secret_key)
-
-   stock_request_params = StockBarsRequest(
-       symbol_or_symbols=["AAPL", "MSFT", "XOM"],  # Replace with the relevant symbols
-       timeframe="1D"  # Daily data
-   )
-
-   stock_data = client.get_stock_bars(stock_request_params)
-   ```
-
-Make sure to replace `"YOUR_API_KEY"` and `"YOUR_SECRET_KEY"` with your actual Alpaca API credentials, and specify the correct symbols for the assets you want to retrieve.
-
-You can further modify the timeframe and other parameters according to your needs.
-
----
-
-This section provides clear instructions on how users can install the Alpaca library, obtain their API key, and then use the provided classes to retrieve both cryptocurrency and stock/natural resources data. Feel free to customize the examples as needed for your specific project.

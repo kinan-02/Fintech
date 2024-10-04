@@ -20,6 +20,30 @@ This study explores the application of advanced Deep Learning models, specifical
    cd Fintech
    
 ## Prerequisites
+
 make sure that you have jupyter or google colab (prefered google colab) 
 
 ## How to Get The Data
+To get the required data for this project, follow the steps below:
+
+1. **Install the Alpaca Library**:
+
+   First, you need to install the Alpaca library. You can do this using `pip`:
+
+   ```sh
+   pip install alpaca-trade-api
+   ```
+
+2. **Get Your API Key**:
+
+   - Go to the [Alpaca website](https://alpaca.markets/) and sign up for an account if you don't have one.
+   - Once signed in, generate an API key, which will be needed to access the data.
+
+3. **Get Cryptocurrency Data**:
+
+   Use the `CryptoBarsRequest` class (provided by the Alpaca library) to retrieve cryptocurrency data. Make sure to use the relevant symbols. 
+
+4. **Get Stock and Natural Resources Data**:
+
+   Use the `StockBarsRequest` class to retrieve stock and natural resources data.
+

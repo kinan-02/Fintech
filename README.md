@@ -87,29 +87,21 @@ Note : check out the last cells, you should rename the files as you need (depend
 Note : check out the last cells, you should rename the files as you need (depends on the data you have)
 
 ## How to Run
-NOTE : the `final_data.parquet` in the `data/new_data/` is the train data and the `test_data.parquet` in the `data/test_data/` is the test data
-You have two options to run the project: training the model from scratch and then evaluating it, or using the pre-trained model directly for evaluation.
+NOTE : the `final_data.parquet` in the `data/new_data/` is the train data and the `test_data.parquet` in the `data/test_data/` is the test data.
+
+**You have two options to run the project:**
+
+training the model from scratch and then evaluating it, or using the pre-trained model (`Trained_Models/`) directly for evaluation.
 
 ### Option 1: Train and Evaluate the Models
+**Train and Evaluate the Model**:
+   
+Note that we have 5 different models that we used all the models are in `Models/` choose the model that you want to run and the code file that is relevant for example of you chose to run the baseline model run the `Models/LSTM_Model.ipynb` file.
 
-1. **Train the Models**:
- - **Run the Missing Data Script**:
+This process will handle the training and evaluating the model with the hyperparameters that we chose.
 
-   Open and run the Jupyter Notebook `join_data.ipynb` to handle the missing values
+Note : if you want to run the code in google colab platform you should upload the `final_data.parquet` in the `data/new_data/` and the `test_data.parquet` in the `data/test_data/`.
 
-   - `--train`: This flag indicates that you want to train the model.
-   - `--config config/train_config.json`: This specifies the configuration file that contains the training parameters (e.g., learning rate, epochs, dataset path).
-
-2. **Evaluate the Model**:
-
-   After training, you can evaluate the trained model using:
-
-   ```sh
-   python main.py --eval --config config/eval_config.json
-   ```
-
-   - `--eval`: This flag indicates that you want to evaluate the model.
-   - `--config config/eval_config.json`: This specifies the evaluation parameters (e.g., validation dataset path, model checkpoint).
 
 ### Option 2: Evaluate Using a Pre-Trained Model
 

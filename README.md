@@ -85,5 +85,66 @@ Note : check out the last cells, you should rename the files as you need (depend
    Open and run the Jupyter Notebook `join_data.ipynb` to handle the missing values
    
 Note : check out the last cells, you should rename the files as you need (depends on the data you have)
+
+## How to Run
+NOTE : the `final_data.parquet` in the `data/new_data/` is the train data and the `test_data.parquet` in the `data/test_data/` is the test data
+You have two options to run the project: training the model from scratch and then evaluating it, or using the pre-trained model directly for evaluation.
+
+### Option 1: Train and Evaluate the Models
+
+1. **Train the Models**:
+ - **Run the Missing Data Script**:
+
+   Open and run the Jupyter Notebook `join_data.ipynb` to handle the missing values
+
+   - `--train`: This flag indicates that you want to train the model.
+   - `--config config/train_config.json`: This specifies the configuration file that contains the training parameters (e.g., learning rate, epochs, dataset path).
+
+2. **Evaluate the Model**:
+
+   After training, you can evaluate the trained model using:
+
+   ```sh
+   python main.py --eval --config config/eval_config.json
+   ```
+
+   - `--eval`: This flag indicates that you want to evaluate the model.
+   - `--config config/eval_config.json`: This specifies the evaluation parameters (e.g., validation dataset path, model checkpoint).
+
+### Option 2: Evaluate Using a Pre-Trained Model
+
+If you do not want to train the model and prefer to use the pre-trained model for evaluation, use the following command:
+
+```sh
+python main.py --eval --pretrained_model_path path/to/pretrained_model.pth --config config/eval_config.json
+```
+
+- `--eval`: This flag indicates that you want to evaluate the model.
+- `--pretrained_model_path path/to/pretrained_model.pth`: Provide the path to the pre-trained model file (e.g., `transformer_model.pth`).
+- `--config config/eval_config.json`: This specifies the configuration for evaluation.
+
+### Example Commands
+
+1. **Training from Scratch**:
+
+   ```sh
+   python main.py --train --config config/train_config.json
+   ```
+
+2. **Evaluating the Trained Model**:
+
+   ```sh
+   python main.py --eval --config config/eval_config.json
+   ```
+
+3. **Evaluating Using a Pre-Trained Model**:
+
+   ```sh
+   python main.py --eval --pretrained_model_path pretrained_models/transformer_model.pth --config config/eval_config.json
+   ```
+
+---
+
+This "How to Run" section provides users with clear instructions for both training and evaluating the model, as well as the option to only evaluate a pre-trained model. Replace paths like `path/to/pretrained_model.pth` and `config/train_config.json` with the appropriate file paths in your project.
    
 

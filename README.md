@@ -72,6 +72,7 @@ To handle missing data in the dataset, follow these steps:
 3. **Run the Missing Data Script**:
 
    Open and run the Jupyter Notebook `filling_missing_values.ipynb` to handle the missing values
+   
 Note : check out the last cells, you should rename the files as you need (depends on the data you have)
 
 ## How to Join The Data

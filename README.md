@@ -8,6 +8,7 @@ This study explores the application of advanced Deep Learning models, specifical
 - [Prerequisites](#Prerequisites)
 - [How to Get The Data](#How-to-Get-The-Data)
 - [How to deal with the missing data](#How-to-Deal-With-The-Missing-Data)
+- [How to Join The Data](#How-to-Join-The-Data)
 - [How to Run](#how-to-run)
 
 ## Installation
@@ -65,10 +66,22 @@ To handle missing data in the dataset, follow these steps:
 
 2. **Upload the Downloaded Data**:
 
-   Load the data that you have already downloaded using Pandas. You can do this in your script or Jupyter Notebook:
+   Load the data that you have already downloaded using Pandas. You can do this in your script or Jupyter Notebook
 
 
 3. **Run the Missing Data Script**:
 
-   Open and run the Jupyter Notebook `filling_missing_values.ipynb` to handle the missing values:
+   Open and run the Jupyter Notebook `filling_missing_values.ipynb` to handle the missing values
 Note : check out the last cells, you should rename the files as you need (depends on the data you have)
+
+## How to Join The Data
+
+1. **Upload the Downloaded Data**:
+
+   Load the data that you have already downloaded using Pandas. You can do this in your script or Jupyter Notebook
+2. **Run the Missing Data Script**:
+
+   Open and run the Jupyter Notebook `join_data.ipynb` to handle the missing values
+Note : check out the last cells, you should rename the files as you need (depends on the data you have)
+   
+

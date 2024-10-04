@@ -51,7 +51,7 @@ To get the required data for this project, follow the steps below:
 Notes : 
 - all of the mentioned above (code) and also the data itself , is in the data folder
 - you should download the data you already got (to use it after that again).
-- 
+  
 ## How-to-Deal-With-The-Missing-Data
 To handle missing data in the dataset, follow these steps:
 
@@ -71,4 +71,4 @@ To handle missing data in the dataset, follow these steps:
 3. **Run the Missing Data Script**:
 
    Open and run the Jupyter Notebook `filling_missing_values.ipynb` to handle the missing values:
-
+Note : check out the last cells, you should rename the files as you need (depends on the data you have)

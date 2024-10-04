@@ -48,4 +48,5 @@ To get the required data for this project, follow the steps below:
    Use the `StockBarsRequest` class to retrieve stock and natural resources data.
 
 Note : all of the mentioned above (code) and also the data itself , is in the data folder
+Note : you should download the data you already got (to use it after that again).
 

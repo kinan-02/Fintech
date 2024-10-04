@@ -82,6 +82,7 @@ Note : check out the last cells, you should rename the files as you need (depend
 2. **Run the Missing Data Script**:
 
    Open and run the Jupyter Notebook `join_data.ipynb` to handle the missing values
+   
 Note : check out the last cells, you should rename the files as you need (depends on the data you have)
    
 

@@ -2,6 +2,8 @@
 
 This study explores the application of advanced Deep Learning models, specifically Long Short-Term Memory (LSTM) networks and Transformer models, to predict Bitcoin's Close prices on a minute-level basis. Leveraging the temporal dependencies captured by LSTMs and the attention mechanisms of Transformers, the research integrates data from various assets including crude oil, Ethereum (ETH), etc. To improve prediction accuracy. We present three different models, with our best model standing out by achieving an impressive MSE reaching 789.67 on the Test data. Our approach holds substantial promise for improving predictive modeling in bitcoin price prediction.
 
+Note: Each run of the models takes about 2.5 hours due to the computational complexity. We chose to run the models on Google Colab to avoid memory issues and because we lacked sufficient resources (such as GPUs) on local computers.
+
 ## Table of Contents
 
 - [Installation](#installation)

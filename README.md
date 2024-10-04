@@ -109,5 +109,6 @@ If you do not want to train the model and prefer to use the pre-trained models f
 
  
 ---
-**This completes the instructions for running the notebooks and processing the data for our project. We encourage you to explore the final results, consider potential improvements, and possibly extend the project with your ideas.
-Thank you for following through with our project workflow!**
+**This completes the instructions for running the notebooks and processing the data for our project. We encourage you to explore the final results, consider potential improvements, and possibly extend the project with your ideas.**
+
+**Thank you for following through with our project workflow!**
